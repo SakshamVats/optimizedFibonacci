@@ -5,8 +5,8 @@ This project implements and compares various techniques to compute Fibonacci num
 
 ## Implemented Methods
 - ✅ Naive Recursion (currently implemented)  
-- 🔜 Memoization  
-- 🔜 Dynamic Programming  
+- ✅ Memoization  
+- ✅ Tabulation  
 - 🔜 Matrix Exponentiation  
 - 🔜 Binet’s Formula  
 

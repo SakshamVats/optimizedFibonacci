@@ -4,10 +4,11 @@
 This project implements and compares various techniques to compute Fibonacci numbers. The goal is to analyze their efficiency and determine the most optimized approach.
 
 ## Implemented Methods
-- ✅ Naive Recursion (currently implemented)  
+- ✅ Naive Recursion 
 - ✅ Memoization  
-- ✅ Tabulation  
-- 🔜 Matrix Exponentiation  
+- ✅ Tabulation
+- ✅ Optimized 3 Variable  
+- ✅ Matrix Exponentiation  
 - 🔜 Binet’s Formula  
 
 ## Benchmarking

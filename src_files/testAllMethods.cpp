@@ -1,10 +1,9 @@
 #include <iostream>
-#include "includes/fibonacci.h"
+#include "../includes/testAllMethods.h"
+#include "../includes/fibonacci.h"
 
-int main()
+void testAllMethods(int n)
 {
-	constexpr int n{ 10 };
-
 	namespace fb = Fibonacci;
 
 	std::cout << "The " << n << "th Fibonacci number is: " << fb::naive_recursive(n) << '\n';
@@ -12,7 +11,5 @@ int main()
 	std::cout << "The " << n << "th Fibonacci number is: " << fb::tabulation(n) << '\n';
 	std::cout << "The " << n << "th Fibonacci number is: " << fb::optimized(n) << '\n';
 	std::cout << "The " << n << "th Fibonacci number is: " << fb::matrixPowers(n) << '\n';
-
-	return 0;
+	std::cout << "The " << n << "th Fibonacci number is: " << fb::binetsFormula(n) << '\n';
 }
-

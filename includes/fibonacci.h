@@ -1,6 +1,8 @@
 #pragma once
 
+#include <array>
 #include <vector>
+#include <cmath>
 
 namespace Fibonacci
 {
@@ -11,9 +13,16 @@ namespace Fibonacci
 
 	int tabulation(int n);
 
-	int optimized(int n);
+	long long optimized(int n);
 	
-	int matrixPowers(int n);
-	void power(int F[2][2], int n);
-	void multiply(int F[2][2], int M[2][2]);
+	long long matrixPowers(int n);
+	void power(long long F[2][2], int n);
+	void multiply(long long F[2][2], long long M[2][2]);
+
+	long long binetsFormula(int n);
+
+	using IntFuncPtr = int (*)(int);
+	using LongLongFuncPtr = long long (*)(int);
+	extern const std::array<IntFuncPtr, 3> intMethods;
+	extern const std::array<LongLongFuncPtr, 3> longLongMethods;
 }

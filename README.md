@@ -9,10 +9,11 @@ This project implements and compares various techniques to compute Fibonacci num
 - ✅ Tabulation
 - ✅ Optimized 3 Variable  
 - ✅ Matrix Exponentiation  
-- 🔜 Binet’s Formula  
+- ✅ Binet’s Formula  
 
 ## Benchmarking
-Each method will be timed to measure performance differences, helping to identify the most efficient algorithm.
+Each method is timed to measure performance differences, helping to identify the most efficient algorithm.
+Results are stored in results.json with proper formatting.
 
 ## Usage
 ### Prerequisites
